@@ -41,7 +41,7 @@ export const Services = () => {
                 <button onClick={() => setOpenIndex(openIndex === index ? null : index)} className="w-full py-8 flex items-start justify-between text-left group">
                   <div className="flex gap-8">
                     <span className="service-number">{service.number}</span>
-                    <h3 className="text-xl md:text-2xl font-display font-medium group-hover:text-accent transition-colors duration-300">
+                    <h3 className="text-xl md:text-2xl group-hover:text-accent transition-colors duration-300 font-sans text-justify font-light">
                       {service.title}
                     </h3>
                   </div>
