@@ -7,7 +7,7 @@ export const About = () => {
           </div>
           
           <div className="space-y-6">
-            <p className="text-body-lg text-foreground leading-relaxed font-sans">
+            <p className="text-body-lg text-foreground leading-relaxed font-sans text-base">
               <strong>FDS (Fraud Detection System)</strong> adalah platform pemantauan dan deteksi fraud yang dirancang untuk membantu Lembaga Jasa Keuangan dalam memenuhi kewajiban <strong>Strategi Anti Fraud</strong> sesuai <strong>POJK No. 12 Tahun 2024</strong>.
             </p>
             
