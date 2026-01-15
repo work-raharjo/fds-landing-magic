@@ -1,10 +1,9 @@
 export const About = () => {
-  return (
-    <section id="about" className="section-padding border-t border-border">
+  return <section id="about" className="section-padding border-t border-border">
       <div className="container-custom">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20">
           <div>
-            <h2 className="text-label text-muted-foreground mb-4">About</h2>
+            <h2 className="text-label mb-4 font-sans text-4xl font-medium text-primary">About</h2>
           </div>
           
           <div className="space-y-6">
@@ -28,6 +27,5 @@ export const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
