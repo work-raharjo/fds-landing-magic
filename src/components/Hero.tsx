@@ -13,8 +13,7 @@ export const Hero = () => {
 
       <div className="container-custom text-center relative z-10">
         <div className={`transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
-          <h1 className="text-display-xl mb-8 tracking-[0.3em] md:tracking-[0.5em] font-sans text-center text-6xl">FDS<span className="inline-block mx-2 md:mx-4" />D<span className="inline-block mx-2 md:mx-4" />S
-          </h1>
+          
         </div>
 
         <div className={`transition-all duration-1000 delay-300 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
