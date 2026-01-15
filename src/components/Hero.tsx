@@ -16,7 +16,7 @@ export const Hero = () => {
           
         </div>
 
-        <div className="font-mono font-thin px-0 text-6xl my-[9px]">
+        <div className="font-mono font-thin px-0 text-6xl my-[29px]">
           <p className="text-label text-muted-foreground mb-12 text-2xl">
             Fraud Detection System
           </p>
