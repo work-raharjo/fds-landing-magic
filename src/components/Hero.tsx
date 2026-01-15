@@ -16,7 +16,7 @@ export const Hero = () => {
           
         </div>
 
-        <div className={`transition-all duration-1000 delay-300 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
+        <div className="font-mono font-thin px-0 text-6xl my-[9px]">
           <p className="text-label text-muted-foreground mb-12 text-2xl">
             Fraud Detection System
           </p>
