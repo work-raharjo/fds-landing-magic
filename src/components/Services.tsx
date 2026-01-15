@@ -32,7 +32,7 @@ export const Services = () => {
         <div className="grid lg:grid-cols-[300px_1fr] gap-12 lg:gap-20">
           {/* Section Title */}
           <div>
-            <h2 className="text-display-lg sticky top-24 text-primary font-sans text-5xl mx-0 px-0 font-medium">SERVICES</h2>
+            <h2 className="text-display-lg sticky top-24 text-primary font-sans mx-0 px-0 text-xl font-medium text-left">SERVICES</h2>
           </div>
 
           {/* Services List */}

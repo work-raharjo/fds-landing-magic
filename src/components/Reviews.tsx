@@ -36,7 +36,7 @@ export const Reviews = () => {
             }}>
                 {reviews.map((review, index) => <div key={index} className="w-full flex-shrink-0 px-4">
                     <blockquote className="space-y-8">
-                      <p className="text-xl md:text-2xl lg:text-3xl leading-relaxed font-sans">
+                      <p className="text-xl md:text-2xl leading-relaxed font-sans lg:text-xl">
                         "{review.quote}"
                       </p>
                       <footer className="text-sm text-muted-foreground">

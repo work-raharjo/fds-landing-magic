@@ -3,7 +3,7 @@ export const About = () => {
       <div className="container-custom">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20">
           <div>
-            <h2 className="text-label mb-4 font-sans font-medium text-primary text-xl">About</h2>
+            <h2 className="text-label mb-4 font-sans text-primary text-xl font-medium">About</h2>
           </div>
           
           <div className="space-y-6">
