@@ -19,7 +19,7 @@ export const Projects = () => {
               </div>
               
               <div className="order-1 lg:order-2 space-y-6">
-                <h3 className="text-display-md">{project.title}</h3>
+                <h3 className="text-display-md font-sans">{project.title}</h3>
                 
                 <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
                   <span>{project.category}</span>
