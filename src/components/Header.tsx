@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import galacticLogo from "@/assets/galactic-logo.png";
 
 const navLinks = [
   { label: "About", href: "#about" },
@@ -17,8 +18,8 @@ export const Header = () => {
       <div className="container-custom">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <a href="#" className="text-xl md:text-2xl font-display font-medium tracking-wider">
-            FDS
+          <a href="#" className="flex items-center">
+            <img src={galacticLogo} alt="Galactic" className="h-8 md:h-10 w-auto" />
           </a>
 
           {/* Desktop Navigation */}
