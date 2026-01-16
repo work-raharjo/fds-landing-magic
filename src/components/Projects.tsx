@@ -1,5 +1,4 @@
 import bankJatimImage from "@/assets/bank-jatim.jpg";
-
 const projects = [{
   title: "Bank Jatim",
   category: "Buku II",
@@ -11,7 +10,7 @@ export const Projects = () => {
   return <section id="projects" className="section-padding border-t border-border bg-secondary/30">
       <div className="container-custom">
         <div className="mb-12">
-          <h2 className="text-label mb-4 text-primary font-sans font-medium text-xl text-right">Projects</h2>
+          <h2 className="text-label mb-4 text-primary font-sans font-medium text-xl text-left">Projects</h2>
         </div>
 
         <div className="grid gap-8">
