@@ -1,9 +1,11 @@
+import bankJatimImage from "@/assets/bank-jatim.jpg";
+
 const projects = [{
   title: "Bank Jatim",
   category: "Buku II",
   year: "2026",
   description: "Implementasi FDS meningkatkan resiliensi system core banking terhadap ancaman fraud",
-  image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop"
+  image: bankJatimImage
 }];
 export const Projects = () => {
   return <section id="projects" className="section-padding border-t border-border bg-secondary/30">
