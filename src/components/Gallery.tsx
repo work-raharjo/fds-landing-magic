@@ -5,16 +5,16 @@ import gallery4 from "@/assets/gallery-4.jpg";
 
 const galleryImages = [{
   src: gallery1,
-  alt: "BNI Tower Jakarta"
+  alt: "Digital Fraud Detection Shield"
 }, {
   src: gallery2,
-  alt: "BRI Building"
+  alt: "Financial Security Monitoring Dashboard"
 }, {
   src: gallery3,
-  alt: "BNI Heritage Building"
+  alt: "Anti-Money Laundering Detection System"
 }, {
   src: gallery4,
-  alt: "BCA Tower"
+  alt: "Secure Banking Infrastructure"
 }];
 export const Gallery = () => {
   return <section id="gallery" className="section-padding border-t border-border">
