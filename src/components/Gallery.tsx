@@ -1,15 +1,20 @@
+import gallery1 from "@/assets/gallery-1.jpg";
+import gallery2 from "@/assets/gallery-2.jpg";
+import gallery3 from "@/assets/gallery-3.jpg";
+import gallery4 from "@/assets/gallery-4.jpg";
+
 const galleryImages = [{
-  src: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=600&h=400&fit=crop",
-  alt: "Dashboard View"
+  src: gallery1,
+  alt: "BNI Tower Jakarta"
 }, {
-  src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=600&fit=crop",
-  alt: "Analytics"
+  src: gallery2,
+  alt: "BRI Building"
 }, {
-  src: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=600&h=400&fit=crop",
-  alt: "Monitoring"
+  src: gallery3,
+  alt: "BNI Heritage Building"
 }, {
-  src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=400&fit=crop",
-  alt: "Reports"
+  src: gallery4,
+  alt: "BCA Tower"
 }];
 export const Gallery = () => {
   return <section id="gallery" className="section-padding border-t border-border">
