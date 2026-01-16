@@ -1,6 +1,6 @@
 import bankJatimImage from "@/assets/bank-jatim.jpg";
 const projects = [{
-  title: "Bank Jatim",
+  title: "Regional Development Bank",
   category: "Buku III",
   year: "2026",
   description: "Implementasi FDS meningkatkan resiliensi system core banking terhadap ancaman fraud",
