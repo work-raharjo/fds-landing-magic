@@ -30,13 +30,19 @@ export const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <a href="#" className="text-2xl font-medium tracking-wider mb-4 block font-sans">
+            <a className="text-2xl font-medium tracking-wider mb-4 block font-sans" href="">
               FDS
             </a>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-muted-foreground font-sans mx-0 my-0 py-0 font-light text-xs">
               Fraud Detection System
+Supporting Anti-Fraud Strategy for Financial Institutions
+
+
               <br />
-              Galactic Indonesia Perkasa @2026
+              Designed to support POJK No.12/2024 implementation
+
+
+ 
             </p>
           </div>
 
