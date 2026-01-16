@@ -1,15 +1,14 @@
 import { useEffect, useState } from "react";
+import { HeroBackground } from "./HeroBackground";
+
 export const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
   useEffect(() => {
     setIsVisible(true);
   }, []);
   return <section className="min-h-screen flex items-center justify-center pt-20 relative overflow-hidden">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 border border-foreground rounded-full" />
-        <div className="absolute bottom-1/4 right-1/4 w-64 h-64 border border-foreground rounded-full" />
-      </div>
+      {/* Animated SVG Background */}
+      <HeroBackground />
 
       <div className="container-custom text-center relative z-10">
         <div className={`transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
