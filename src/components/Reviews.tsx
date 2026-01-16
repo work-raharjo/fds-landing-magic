@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 const reviews = [{
-  quote: "Implementasi FDS di Bank Jatim sangat membantu dalam meningkatkan kemampuan deteksi fraud kami. Sistem yang intuitif dan dokumentasi yang lengkap memudahkan tim kami dalam mengadopsi platform ini.",
+  quote: "Implementasi FDS di bank kami sangat membantu dalam meningkatkan kemampuan deteksi fraud kami. Sistem yang intuitif dan dokumentasi yang lengkap memudahkan tim kami dalam mengadopsi platform ini.",
   author: "IT Director",
   company: "Bank Jatim"
 }, {
