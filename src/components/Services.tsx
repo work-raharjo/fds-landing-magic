@@ -53,7 +53,7 @@ export const Services = () => {
                 <div className={`overflow-hidden transition-all duration-500 ease-smooth ${openIndex === index ? "max-h-[800px] opacity-100" : "max-h-0 opacity-0"}`}>
                   <div className="pb-8 pl-0 md:pl-16 grid md:grid-cols-2 gap-8">
                     <div className="space-y-4">
-                      <p className="text-body text-muted-foreground">
+                      <p className="text-body text-muted-foreground font-sans text-sm">
                         {service.description}
                       </p>
                       <ul className="space-y-2">
