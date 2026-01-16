@@ -42,7 +42,7 @@ const StatItem = ({
   return <div className="text-center">
       <div className="text-display-lg md:text-display-xl mb-2">
         <span className="tabular-nums font-sans">{count}</span>
-        <span className="text-accent font-sans">{stat.suffix}</span>
+        <span className="font-sans text-blue-600">{stat.suffix}</span>
       </div>
       <p className="text-label text-muted-foreground">{stat.label}</p>
     </div>;
