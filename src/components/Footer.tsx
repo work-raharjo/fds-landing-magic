@@ -30,7 +30,7 @@ export const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <a href="#" className="text-2xl font-display font-medium tracking-wider mb-4 block">
+            <a href="#" className="text-2xl font-medium tracking-wider mb-4 block font-sans">
               FDS
             </a>
             <p className="text-sm text-muted-foreground">
@@ -42,7 +42,7 @@ export const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-sm font-medium mb-4">Quick Links</h4>
+            <h4 className="text-sm font-medium mb-4 font-sans">Quick Links</h4>
             <ul className="space-y-3">
               {quickLinks.map(link => <li key={link.label}>
                   <a href={link.href} className="text-sm text-muted-foreground hover:text-foreground transition-colors">
@@ -54,7 +54,7 @@ export const Footer = () => {
 
           {/* Resources */}
           <div>
-            <h4 className="text-sm font-medium mb-4">Resources</h4>
+            <h4 className="text-sm font-medium mb-4 font-sans">Resources</h4>
             <ul className="space-y-3">
               {resources.map(link => <li key={link.label}>
                   <a href={link.href} className="text-sm text-muted-foreground hover:text-foreground transition-colors">
@@ -66,7 +66,7 @@ export const Footer = () => {
 
           {/* Contact */}
           <div>
-            <h4 className="text-sm font-medium mb-4">Contact</h4>
+            <h4 className="text-sm font-medium mb-4 font-sans">Contact</h4>
             <ul className="space-y-3">
               <li>
                 <a href="mailto:info@fds-galactic.com" className="text-sm text-muted-foreground hover:text-foreground transition-colors">support@gip.co.id</a>
