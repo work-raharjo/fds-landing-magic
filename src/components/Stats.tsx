@@ -64,15 +64,5 @@ export const Stats = () => {
     }
     return () => observer.disconnect();
   }, []);
-  return <section ref={sectionRef} className="section-padding border-t border-border">
-      <div className="container-custom">
-        <div className="mb-12 text-center">
-          <h2 className="text-label text-muted-foreground">By the Numbers</h2>
-        </div>
-
-        <div className="grid md:grid-cols-3 gap-12 md:gap-8">
-          {stats.map((stat, index) => <StatItem key={index} stat={stat} startCounting={isVisible} />)}
-        </div>
-      </div>
-    </section>;
+  return;
 };

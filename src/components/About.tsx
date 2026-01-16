@@ -11,16 +11,16 @@ export const About = () => {
               <strong>FDS (Fraud Detection System)</strong> adalah platform pemantauan dan deteksi fraud yang dirancang untuk membantu Lembaga Jasa Keuangan dalam memenuhi kewajiban <strong>Strategi Anti Fraud</strong> sesuai <strong>POJK No. 12 Tahun 2024</strong>.
             </p>
             
-            <p className="text-body text-muted-foreground leading-relaxed font-sans font-light">
+            <p className="text-body leading-relaxed font-sans font-light text-primary">
               FDS mengintegrasikan data transaksi, operasional, dan perilaku pengguna ke dalam satu tampilan terpadu untuk mendukung pencegahan, deteksi dini, serta tindak lanjut atas potensi fraud secara terstruktur dan terdokumentasi.
             </p>
             
-            <p className="text-body text-muted-foreground leading-relaxed font-sans">
-              Dirancang dengan prinsip FDS membantu manajemen dan unit kerja terkait mengambil keputusan berbasis data tanpa menambah kompleksitas operasional.  <strong className="text-foreground">sederhana, transparan, dan dapat diaudit</strong>​
+            <p className="text-body leading-relaxed font-sans font-light text-primary">Dirancang dengan prinsip sederhana, transparan, dan dapat diaudit, FDS membantu manajemen dan unit kerja terkait mengambil keputusan berbasis data tanpa menambah kompleksitas operasional.
+            <strong className="text-foreground">sederhana, transparan, dan dapat diaudit</strong>​
             </p>
 
             <div className="pt-6 flex flex-wrap gap-4">
-              <span className="px-4 py-2 bg-secondary text-secondary-foreground text-sm">POJK Compliant</span>
+              <span className="px-4 py-2 bg-secondary text-secondary-foreground text-sm">POJK Aligned</span>
               <span className="px-4 py-2 bg-secondary text-secondary-foreground text-sm">Real-time Monitoring</span>
               <span className="px-4 py-2 bg-secondary text-secondary-foreground text-sm">Audit Ready</span>
             </div>
