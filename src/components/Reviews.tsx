@@ -3,7 +3,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 const reviews = [{
   quote: "Implementasi FDS di bank kami sangat membantu dalam meningkatkan kemampuan deteksi fraud kami. Sistem yang intuitif dan dokumentasi yang lengkap memudahkan tim kami dalam mengadopsi platform ini.",
   author: "IT Director",
-  company: "Bank Jatim"
+  company: "Regional Development Bank"
 }, {
   quote: "FDS memberikan visibilitas penuh terhadap aktivitas transaksi dan membantu kami memenuhi persyaratan regulasi OJK dengan lebih efisien. Highly recommended untuk institusi keuangan.",
   author: "Compliance Manager",
