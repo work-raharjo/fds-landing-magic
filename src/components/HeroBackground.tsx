@@ -215,25 +215,6 @@ export const HeroBackground = () => {
         strokeOpacity="0.4"
       />
 
-      {/* Hexagonal network nodes */}
-      <path
-        d="M300 200 L315 210 L315 230 L300 240 L285 230 L285 210 Z"
-        stroke="hsl(var(--primary))"
-        strokeWidth="1"
-        strokeOpacity="0.5"
-      />
-      <path
-        d="M900 200 L915 210 L915 230 L900 240 L885 230 L885 210 Z"
-        stroke="hsl(var(--primary))"
-        strokeWidth="1"
-        strokeOpacity="0.5"
-      />
-      <path
-        d="M600 400 L620 415 L620 445 L600 460 L580 445 L580 415 Z"
-        stroke="hsl(var(--accent))"
-        strokeWidth="2"
-        strokeOpacity="0.6"
-      />
 
       {/* Corner decorative lines */}
       <path
