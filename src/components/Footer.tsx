@@ -1,20 +1,31 @@
-const quickLinks = [
-  { label: "About", href: "#about" },
-  { label: "Services", href: "#services" },
-  { label: "Projects", href: "#projects" },
-  { label: "Gallery", href: "#gallery" },
-  { label: "Reviews", href: "#reviews" },
-];
-
-const resources = [
-  { label: "Documentation", href: "#" },
-  { label: "API Reference", href: "#" },
-  { label: "Changelog", href: "#" },
-];
-
+const quickLinks = [{
+  label: "About",
+  href: "#about"
+}, {
+  label: "Services",
+  href: "#services"
+}, {
+  label: "Projects",
+  href: "#projects"
+}, {
+  label: "Gallery",
+  href: "#gallery"
+}, {
+  label: "Reviews",
+  href: "#reviews"
+}];
+const resources = [{
+  label: "Documentation",
+  href: "#"
+}, {
+  label: "API Reference",
+  href: "#"
+}, {
+  label: "Changelog",
+  href: "#"
+}];
 export const Footer = () => {
-  return (
-    <footer className="border-t border-border bg-secondary/30">
+  return <footer className="border-t border-border bg-secondary/30">
       <div className="container-custom section-padding">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
@@ -33,16 +44,11 @@ export const Footer = () => {
           <div>
             <h4 className="text-sm font-medium mb-4">Quick Links</h4>
             <ul className="space-y-3">
-              {quickLinks.map((link) => (
-                <li key={link.label}>
-                  <a
-                    href={link.href}
-                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                  >
+              {quickLinks.map(link => <li key={link.label}>
+                  <a href={link.href} className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                     {link.label}
                   </a>
-                </li>
-              ))}
+                </li>)}
             </ul>
           </div>
 
@@ -50,16 +56,11 @@ export const Footer = () => {
           <div>
             <h4 className="text-sm font-medium mb-4">Resources</h4>
             <ul className="space-y-3">
-              {resources.map((link) => (
-                <li key={link.label}>
-                  <a
-                    href={link.href}
-                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                  >
+              {resources.map(link => <li key={link.label}>
+                  <a href={link.href} className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                     {link.label}
                   </a>
-                </li>
-              ))}
+                </li>)}
             </ul>
           </div>
 
@@ -68,20 +69,10 @@ export const Footer = () => {
             <h4 className="text-sm font-medium mb-4">Contact</h4>
             <ul className="space-y-3">
               <li>
-                <a
-                  href="mailto:info@fds-galactic.com"
-                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  info@fds-galactic.com
-                </a>
+                <a href="mailto:info@fds-galactic.com" className="text-sm text-muted-foreground hover:text-foreground transition-colors">support@gip.co.id</a>
               </li>
               <li>
-                <a
-                  href="https://linkedin.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                >
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                   LinkedIn
                 </a>
               </li>
@@ -104,6 +95,5 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
