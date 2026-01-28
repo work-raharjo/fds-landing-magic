@@ -14,12 +14,8 @@ export const Projects = () => {
         </div>
 
         <div className="grid gap-8">
-          {projects.map((project, index) => <div key={index} className="group grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-              <div className="image-hover order-2 lg:order-1">
-                <img src={project.image} alt={project.title} className="w-full aspect-[4/3] object-cover" />
-              </div>
-              
-              <div className="order-1 lg:order-2 space-y-6">
+          {projects.map((project, index) => <div key={index} className="group">
+              <div className="space-y-6">
                 <h3 className="text-display-md font-sans">{project.title}</h3>
                 
                 <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
